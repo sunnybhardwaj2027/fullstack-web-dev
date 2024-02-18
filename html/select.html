@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>select elements in html</title>
+</head>
+<body>
+    <form action="/server">
+        <div>
+            <label for="profession">choose your profession</label>
+            <!-- label element lagake usme for attribute ak value aur kisi bhi element ke id mein agar same value de di to use connect kar deta hai -->
+            <select name="profession" id="profession">
+                <option>choose your profession</option>
+                <option value="stu" id="student">student</option>
+                <!-- <option value="stu" id="student" selected>student</option>--isse student phle se select hoke aayega -->
+                <option value="dev" id="developer">developer</option>
+            </select>
+            <button>submit</button>
+        </div>
+    </form>
+</body>
+</html>
